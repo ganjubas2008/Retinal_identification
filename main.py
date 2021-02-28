@@ -1,4 +1,4 @@
-from solution import Solution
+from estimate import Solution
 import argparse
 import cv2
 
