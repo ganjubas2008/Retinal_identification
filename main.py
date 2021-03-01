@@ -19,9 +19,9 @@ def parse():
 
 if __name__ == "__main__":
     try:
-        args = {"path1": "C:\MESSIDOR\\1pp.tif",
-                "path2": "C:\MESSIDOR\\1pp.tif"}
-        #args = parse()
+        #args = {"path1": "C:\MESSIDOR\\1pp.tif",
+        #        "path2": "C:\MESSIDOR\\1pp.tif"}
+        args = parse()
         print(main(args["path1"], args["path2"]))
     except BaseException as err:
         print(err)
