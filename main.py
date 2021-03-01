@@ -10,9 +10,9 @@ def main(path1, path2):
 
 def parse():
     ap = argparse.ArgumentParser()
-    ap.add_argument("-p1", "--path1", required=True,
+    ap.add_argument("--path1", required=True,
                     help="path to first image")
-    ap.add_argument("-p2", "--path2", required=True,
+    ap.add_argument("--path2", required=True,
                     help="path to second image")
     args = vars(ap.parse_args())
     return args
